@@ -1,0 +1,31 @@
+{
+  "name": "technical-tests",
+  "version": "1.0.0",
+  "description": "Repositorio con pruebas técnicas de programación y desarrollo web Front-End",
+  "main": "index.js",
+  "private": "true",
+  "workspaces": [
+    "projects/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "sui-mono commit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chicho69-cesar/technical-tests.git"
+  },
+  "author": "Cesar Villalobos Olmos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chicho69-cesar/technical-tests/issues"
+  },
+  "homepage": "https://github.com/chicho69-cesar/technical-tests#readme",
+  "dependencies": {
+    "@s-ui/mono": "2.35.0",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
