@@ -1,0 +1,20 @@
+.books-list, .lecture-list {
+  list-style-type: none;
+  display: grid;
+}
+
+.books-list {
+  margin-bottom: 2rem;
+  
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  
+  /* display: inline-block;
+  columns: 3;
+  gap: 1.5rem; */
+}
+
+.lecture-list {
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  gap: 2rem;
+}

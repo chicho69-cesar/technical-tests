@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.available-books {
+  width: 60%;
+}
+
+.available-books-number {
+  margin-left: 0.5rem;
+  color: #09f;
+  font-weight: bolder;
+}
+
+.lecture-books {
+  flex: 1;
+  margin: 1rem 0;
+  padding: 0.5rem 2rem 2rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 153, 255, 0.1);
+}
+
+.lecture-books-title {
+  margin-bottom: 1.5rem;
+}

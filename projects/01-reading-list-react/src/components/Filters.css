@@ -1,0 +1,23 @@
+.filters {
+  width: 100%;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 1rem;
+}
+
+.filter {
+  flex: 1;
+}
+
+.filter h4 {
+  font-size: 1.25rem;
+}
+
+.pages-value {
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+  color: #09f;
+  font-weight: bold;
+}

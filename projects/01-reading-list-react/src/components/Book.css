@@ -1,0 +1,84 @@
+.book {
+  position: relative;
+  display: block;
+}
+
+.book:hover img {
+  opacity: 0.25;
+}
+
+.book:hover .book-info {
+  display: block;
+}
+
+.book img {
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  object-position: center;
+  transition: all 0.25s ease;
+}
+
+.book-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.5rem;
+  display: none;
+  transition: all 0.25s ease;
+}
+
+.book-info h4 {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.book-info p {
+  font-size: 0.85rem;
+}
+
+.book-info span {
+  display: block;
+}
+
+.book-info .book-genre {
+  display: inline-block;
+  width: 100px;
+  padding: 0.2rem;
+  margin: 0.5rem 0;
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: bolder;
+  text-align: center;
+  background-color: #09f;
+  box-shadow: 3px 3px 10px -1px rgba(10, 10, 10, 0.5);
+}
+
+.book-info ul {
+  list-style: none;
+}
+
+.book-info ul li {
+  margin-left: 0.5rem;
+  font-size: 0.85rem;
+  color: #eee;
+  font-style: italic;
+}
+
+.book-actions {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-actions button {
+  background-color: rgb(214, 114, 0);
+  box-shadow: 3px 3px 5px -1px rgba(10, 10, 10, 0.5);
+  transition: box-shadow 0.25s ease;
+}
+
+.book-actions button:hover {
+  box-shadow: 3px 3px 5px -1px transparent;
+}
