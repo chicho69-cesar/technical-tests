@@ -1,5 +1,5 @@
 import booksMocks from '../assets/books.json'
-import { Book } from '../types';
+import { Book } from '../types'
 
 export function getInitialBooks (): Book[] {
   const lectureBooks: Book[] = getLectureBooks()
