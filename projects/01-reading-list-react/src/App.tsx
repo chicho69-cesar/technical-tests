@@ -19,7 +19,9 @@ function App() {
             <span className='available-books-number'>{nOfAvailableBooks}</span>
           </h2>
 
-          <h3>{nOfLectureBooks} en lista de lectura</h3>
+          <h3>
+            <span className='lecture-books-number'>{nOfLectureBooks}</span> en lista de lectura
+          </h3>
 
           <Filters />
 
